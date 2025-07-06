@@ -1,1 +1,13 @@
+{def load_data():
+    try:
+        with open("users_data.json", "r", encoding="utf-8") as f:
+            data = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        data = {}
 
+    # اطمینان از وجود ساختار اولیه
+    for key in ["users", "purchases", "commissions", "referrals"]:
+        if key not in data:
+            data[key] = {}
+
+    return data
