@@ -1,7 +1,0 @@
-services:
-  - type: worker
-    name: limen-bot
-    env: python
-    buildCommand: ""
-    startCommand: ./start.sh
-    autoDeploy: true
