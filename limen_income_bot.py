@@ -23,7 +23,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # اطلاعات ثابت
-TOKEN = "7990594193:AAH8eQ8smtq9Strd8dT2I8dXF4CCtAPxlXI"
+TOKEN = "7990594193:AAH6I2BW5ZAwuc9J0g3kgIOzIVx346j3x6U"
 ADMIN_ID = 378486866
 ADMIN_GROUP_ID = -1002859501160  # تغییر آیدی گروه ادمین برای آرشیو
 SUPPORT_PHONE = "09138895464"
